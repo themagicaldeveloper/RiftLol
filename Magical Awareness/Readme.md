@@ -11,8 +11,8 @@ TBD, Very Very Many!
 
 Changes
 -----------
-11/23/2018 - Started writing the script
-11/24/2018 - Uploaded the script and fixed bugs
+-11/23/2018 - Started writing the script
+-11/24/2018 - Uploaded the script and fixed bugs
 
 Recognitions
 ----------------------
