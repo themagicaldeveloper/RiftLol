@@ -4,6 +4,7 @@ Current Features
 ---------------------
 - Prints the players health to the console.
 - Prints "I am dead!" If the player is dead.
+
 Upcoming Features
 --------------------
 TBD, Very Very Many!
