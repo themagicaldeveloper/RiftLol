@@ -14,7 +14,9 @@ Changes
 11/23/2018 - Started writing the script
 11/24/2018 - Uploaded the script and fixed bugs
 
-
+Recognitions
+----------------------
+Big thanks to LolHero, Jay, VX22, FanboyGoTTy and RMAN for their help.
 
 
 
