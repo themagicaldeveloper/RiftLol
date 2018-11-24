@@ -8,7 +8,7 @@ SDK_HEALTH Health;
 
 struct
 {
-	
+	//The local player obj
 	void* Object;
 
 	//
@@ -47,7 +47,7 @@ BOOL WINAPI DllMain //Rift DLL Setup
 		UNREFERENCED_PARAMETER(UserData);
 		SdkGetLocalPlayer(&_g_LocalPlayer.Object); //This stores a pointer to the local player object, so that we may use it in other functions.
 		SdkRegisterGameScene(DrawGameScene, NULL); //Callback that will allow us to draw and call code at the start of every frame
-		SdkGetUnitHealth(_g_LocalPlayer.Object, &Health); //Grabs the pointer to all health info, useful for getting info about health or shields
+		
 	}, NULL
 	);
 
@@ -62,7 +62,7 @@ void __cdecl DrawGameScene //Called by SdkRegisterGameScene, the code in here wi
 {
 	UNREFERENCED_PARAMETER(UserData);
 	
-
+	SdkGetUnitHealth(_g_LocalPlayer.Object, &Health); //Grabs the pointer to all health info, useful for getting info about health or shields
 	if (Health.Current==0) // This if statement will print "I am dead!" if the localplayers health is 0, otherwise it will print the localplayers health value
 		SdkUiConsoleWrite("I am dead!");
 	else
