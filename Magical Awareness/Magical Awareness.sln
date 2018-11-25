@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2050
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "simple", "simple.vcxproj", "{E93034DF-E583-4892-A98C-B1738AB72E32}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Magical Awareness", "Magical Awareness.vcxproj", "{E93034DF-E583-4892-A98C-B1738AB72E32}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,6 +20,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {710251B6-061C-413F-8B18-CB33D0203CBA}
+		SolutionGuid = {FD8E4067-7534-42E9-9DC8-44A1B60DFE56}
 	EndGlobalSection
 EndGlobal
